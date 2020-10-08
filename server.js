@@ -6,7 +6,7 @@ import cors from "cors";
 const app = express();
 const port = 3001;
 
-// middleware with cors
+// middleware
 app.use(express.json());
 app.use(cors());
 
